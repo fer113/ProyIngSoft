@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout1" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Ingresar Datos"
+        android:id="@+id/text1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:keyboardNavigationCluster="true"/>
+    <EditText
+        android:id="@+id/xetn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del medicamento"
+        android:selectAllOnFocus="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Padecimiento:" />
+    <EditText
+        android:id="@+id/xetx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Padecimiento a curar"
+        android:selectAllOnFocus="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosis: " />
+    <EditText
+        android:id="@+id/xetz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosis recetada"
+        android:selectAllOnFocus="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor: " />
+    <EditText
+        android:id="@+id/xety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor que expidió la receta"
+        android:selectAllOnFocus="true"/>
+    <Button
+        android:id="@+id/BtnFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto envase" />
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/BtnFoto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto Medicamento" />
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/BtnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar" />
+</LinearLayout>

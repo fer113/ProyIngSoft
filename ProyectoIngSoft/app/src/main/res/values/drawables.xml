@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_upload" type="drawable">@android:drawable/ic_menu_upload</item>
+    <item name="ic_menu_edit" type="drawable">@android:drawable/ic_menu_edit</item>
+    <item name="ic_menu_myCalendar" type="drawable">@android:drawable/ic_menu_my_calendar</item>
+    <item name="ic_menu_opt" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_comp" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_env" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_save" type="drawable">@android:drawable/ic_menu_save</item>
+</resources>
